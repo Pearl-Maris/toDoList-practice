@@ -1,0 +1,64 @@
+section {
+  width: min-content;
+  height: 100vh;
+  margin: 0 auto;
+}
+section .template {
+  min-width: min-content;
+  height: min-content;
+  background-color: #FAF2DA;
+  padding: 40px 20px;
+  margin-top: 100px;
+}
+section .template .list {
+  width: 300px;
+  height: 100%;
+}
+.list h1 {
+  font-size: 24px;
+  color: #4A503D;
+  padding: 10px 16px;
+}
+#todo-list {
+  margin-top: 16px;
+}
+#todo-list li {
+  padding: 4px 10px;
+  display: flex;
+  align-items: center;
+}
+#todo-list li label {
+  flex-grow: 1;
+}
+#todo-list li button{
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  font-size: 8px;
+}
+/* todoform */
+.add-todo {
+  margin-top: 10px;
+  padding: 0 10px;
+  width: min-content;
+}
+.add-todo form {
+  width: 300px;
+  display: flex;
+}
+.add-todo form span{
+  color: #E28F83;
+  padding: 4px;
+}
+.add-todo form input {
+  width: 80%;
+  padding: 6px 10px;
+  color: #4A503D;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.add-todo form input::placeholder{
+  color: #E28F83;
+}
